@@ -1,0 +1,3 @@
+# Library-Management-System
+
+Welcome to a console based Library Management software which has got all the functionality of managing the library resources and it is also capable of processing the members and admin requests such as borrow item, return item, search item, access member details, remove and add members etc. I designed this software in a way in which admin and member have an account and they both are connected with the Library Management System class. Library Management system is responsible to handle all the requests from the members and admin.![image](https://user-images.githubusercontent.com/69043188/170803661-9c71277e-7397-458b-baec-c2174e656354.png)
