@@ -1,0 +1,6 @@
+/Users/bhomikkinger/Desktop/LibraryManagement/LibraryManagement/bin/Debug/LibraryManagement.exe
+/Users/bhomikkinger/Desktop/LibraryManagement/LibraryManagement/bin/Debug/LibraryManagement.pdb
+/Users/bhomikkinger/Desktop/LibraryManagement/LibraryManagement/obj/Debug/LibraryManagement.csprojAssemblyReference.cache
+/Users/bhomikkinger/Desktop/LibraryManagement/LibraryManagement/obj/Debug/LibraryManagement.csproj.CoreCompileInputs.cache
+/Users/bhomikkinger/Desktop/LibraryManagement/LibraryManagement/obj/Debug/LibraryManagement.exe
+/Users/bhomikkinger/Desktop/LibraryManagement/LibraryManagement/obj/Debug/LibraryManagement.pdb
