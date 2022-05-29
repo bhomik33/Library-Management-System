@@ -15,13 +15,13 @@ namespace LibraryManagement
             LibraryManagementSystem libraryManagementSystem = new LibraryManagementSystem();
 
             // admin account
-            Librarian admin = new Librarian("Jack", "JFernandez", "J1234", libraryManagementSystem);
+            Librarian admin = new Librarian("testAdminUser", "testAdmin", "A1234", libraryManagementSystem);
 
             //add a library Resource
             LibraryResource book = new Book("Physics", "James", "2333", Format.Hardcover);
 
             //user account
-            Member member1 = new Member("Bhomik", "bkinger", "b1223", "Unit3/762 Whitehorse Rd, Mont Albert 3127 VIC", "0426436916", 22, libraryManagementSystem);
+            Member member1 = new Member("testMemberUser", "testMember", "M1234", "Unit3/762 Whitehorse Rd, Mont Albert 3127 VIC", "0426436916", 22, libraryManagementSystem);
             admin.AddNewMember(member1);
             admin.AddNewItem(book);
 
@@ -50,7 +50,7 @@ namespace LibraryManagement
 
                     Console.Write("Please enter the Password -> ");
                     string password = Console.ReadLine();
-                    if (username != "JFernandez" || password != "J1234")
+                    if (username != "testAdmin" || password != "A1234")
                     {
                         Console.WriteLine("\n");
                         Console.WriteLine("Invalid username or Password!");
@@ -364,7 +364,7 @@ namespace LibraryManagement
                     Console.Write("Please enter the Password -> ");
                     string password = Console.ReadLine();
 
-                    if (username != "bkinger" || password != "b1223")
+                    if (username != "testMember" || password != "M1234")
                     {
                         Console.WriteLine("\n");
                         Console.WriteLine("Invalid username or Password!");
